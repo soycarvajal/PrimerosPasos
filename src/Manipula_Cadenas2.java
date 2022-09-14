@@ -6,6 +6,8 @@ public class Manipula_Cadenas2 {
         String frase_resumen = frase.substring(29, 57);
 
         System.out.println(frase_resumen + " e irnos a la playa y olvidarnos de todo.");
+
+        System.out.println("Hoy es un estupendo dia para " + frase_resumen);
         
     }
     
