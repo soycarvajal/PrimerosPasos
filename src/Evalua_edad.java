@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-import javax.swing.JOptionPane;
+//import javax.swing.JOptionPane;
 
 public class Evalua_edad {
     public static void main(String[] args) {
