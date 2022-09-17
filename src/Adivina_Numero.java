@@ -7,7 +7,9 @@ public class Adivina_Numero {
         
         //GENERAR NUMERO ENTRE 0 - 100 Y ADIVINARLO
 
-        int aleatorio = (int)(Math.random()*100);
+        int aleatorio = (int)(Math.random()*100);  //Almacena dentro de la variable aleatorio un numero entre 0 y 100
+        //Con math.random obtenemos un numero aleatorio con decimal y lo multiplicamos por 100
+        //Con int lo convertinos a entero despues se almacena en la variable aleatorio
 
         Scanner entrada = new Scanner(System.in);
 
