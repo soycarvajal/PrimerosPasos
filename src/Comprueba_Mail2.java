@@ -8,7 +8,7 @@ public class Comprueba_Mail2 {
 
         String mail = JOptionPane.showInputDialog("Introduce tu email");
 
-        for (int i = 0; i < mail.length(); i++) {
+        for (int i = 0; i < mail.length(); i++) { 
             if (mail.charAt(i) == '@') {
                 arroba++;
             }
